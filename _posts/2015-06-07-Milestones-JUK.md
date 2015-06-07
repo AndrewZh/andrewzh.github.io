@@ -17,6 +17,7 @@ comments: false
 ---
 
 ### June milestones
+
 #### Enhancing tool for stent points generation
 1. returning to the previous frame
 2. undo changes
@@ -37,6 +38,7 @@ After this start implementing calculus
 
 #### By June 11th
 Enhance stent-point-generation tool
+
 #### By June 20th
 Implement following tasks:
 * points area detection
@@ -44,9 +46,12 @@ Implement following tasks:
 
 #### By June 27th
 Implement volume function interpolation. Consequently, there will be an opportunity to caclulate volume.
+
 #### By July 4th
 Implement stent and vessel contour length calculation. Previously implemented task on area detection should be used.
+
 #### By July 18th
 Implement carpet view without stent points simply providing circumference diagram using contour lengthes.
+
 #### By July 25th
 Implement points projection. Integrate into carpet view and test.
