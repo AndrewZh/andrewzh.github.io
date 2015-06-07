@@ -16,8 +16,6 @@ featured: false
 comments: false
 ---
 
-### June-July milestones
-
 #### Enhancing tool for stent points generation
 1. returning to the previous frame
 2. undo changes
