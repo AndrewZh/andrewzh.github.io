@@ -16,7 +16,7 @@ featured: false
 comments: false
 ---
 
-### June milestones
+### June-July milestones
 
 #### Enhancing tool for stent points generation
 1. returning to the previous frame
@@ -36,6 +36,8 @@ After this start implementing calculus
     2.3 Provide a 2D projection of points and contours
     2.4 Generate final view
 
+### June
+
 #### By June 11th
 Enhance stent-point-generation tool
 
@@ -46,6 +48,8 @@ Implement following tasks:
 
 #### By June 27th
 Implement volume function interpolation. Consequently, there will be an opportunity to caclulate volume.
+
+### July
 
 #### By July 4th
 Implement stent and vessel contour length calculation. Previously implemented task on area detection should be used.
