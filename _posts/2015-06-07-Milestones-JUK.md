@@ -10,6 +10,7 @@ tags:
   - JUK
   - "milestones,JUK"
 share: true
+comments: true
 published: true
 mathjax: false
 featured: false
