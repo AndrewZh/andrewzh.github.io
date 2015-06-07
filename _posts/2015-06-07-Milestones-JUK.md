@@ -9,12 +9,11 @@ tags:
   - milestones
   - JUK
   - "milestones,JUK"
-share: true
 comments: true
+share: true
 published: true
 mathjax: false
 featured: false
-comments: false
 ---
 
 #### Enhancing tool for stent points generation
