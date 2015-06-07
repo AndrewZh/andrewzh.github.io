@@ -22,7 +22,9 @@ comments: false
 2. undo changes
 3. saving points without termination
 4. enhance termination
+
 After this start implementing calculus
+
 #### Major calculus tasks
 1. Calculate volume of the following areas:
 	1.1 Mallapposed
@@ -39,6 +41,7 @@ Enhance stent-point-generation tool
 Implement following tasks:
 * points area detection
 * calculating points area intersecting or non-intersecting (depends on the point type) with inner vessel area
+
 #### By June 27th
 Implement volume function interpolation. Consequently, there will be an opportunity to caclulate volume.
 #### By July 4th
