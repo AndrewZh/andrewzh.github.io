@@ -9,8 +9,6 @@ category: Milestones
 tags: 
   - milestones
   - JUK
-  - "milestones,JUK"
-  - "milestones,JUK,milestones,JUK"
 comments: true
 share: true
 published: true
