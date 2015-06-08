@@ -35,6 +35,7 @@ However, there are another a little trickier but still intuitive key to press to
 9. _**n**_ - go to the next frame if there is one
 10. _**b**_ - terminate application: all the points are saved.
 
+
 ### Points colour classification
 As you may have noticed there are several types of points. That is why each type is assigned a specific colour to be distinguished when switching types and displaying combined scenes (i.e. vessel surface, carpet view).
 Here is the colour classification used in the tool:
