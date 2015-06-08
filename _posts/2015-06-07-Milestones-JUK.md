@@ -44,8 +44,8 @@ Enhance stent-point-generation tool
 
 #### By June 20th
 Implement following tasks:
-- points area detection
-- calculating points area intersecting or non-intersecting (depends on the point type) with inner vessel area
+1. points area detection
+2. calculating points area intersecting or non-intersecting (depends on the point type) with inner vessel area
 
 #### By June 27th
 Implement volume function interpolation. Consequently, there will be an opportunity to caclulate volume.
