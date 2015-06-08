@@ -34,3 +34,12 @@ However, there are another a little trickier but still intuitive key to press to
 8. _**p**_ - go to the previous frame if there is one
 9. _**n**_ - go to the next frame if there is one
 10. _**b**_ - terminate application: all the points are saved.
+
+### Points colour classification
+As you may have noticed there are several types of points. That is why each type is assigned a specific colour to be distinguished when switching types and displaying combined scenes (i.e. vessel surface, carpet view).
+Here is the colour classification used in the tool:
+1. Unknown points (default ones) - yellow
+2. Malapposed points - blue
+3. Apposed points - red
+4. Contained points - green
+5. Side-branch points - magenta
