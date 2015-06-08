@@ -31,3 +31,6 @@ However, there are another a little trickier but still intuitive key to press to
 5. _**u**_ - switching to points with unknown status
 6. _**w**_ - save currently selected points
 7. _**z**_ - remove the latest point on the current frame (if frame is empty nothing is done)
+8. _**p**_ - go to the previous frame if there is one
+9. _**n**_ - go to the next frame if there is one
+10. _**b**_ - terminate application: all the points are saved.
