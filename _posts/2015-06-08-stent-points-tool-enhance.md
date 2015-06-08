@@ -17,7 +17,7 @@ featured: false
 ### Achieved enhancements
 Today I have finished implementing some easy but cosy features for the stent points generation tool.
 
-###### From now user can:
+##### From now user can:
 1. Return to the previous frame.
 2. Rollback changes in the current frame. It means there is a possibility to remove points one by one inside one frame.
 3. Save points without terminating application (when stopping points are also saved).
