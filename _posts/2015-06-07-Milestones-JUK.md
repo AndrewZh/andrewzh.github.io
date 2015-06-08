@@ -4,17 +4,20 @@ title: "Milestones for Jena UK (June-July)"
 modified: 
   - 2015-06-07T00:00:00.000Z
   - "Sun Jun 07 2015 03:00:00 GMT+0300 (MSK)"
+  - "Sun Jun 07 2015 03:00:00 GMT+0300 (MSK),Sun Jun 07 2015 03:00:00 GMT+0300 (MSK)"
 category: Milestones
 tags: 
   - milestones
   - JUK
   - "milestones,JUK"
+  - "milestones,JUK,milestones,JUK"
 comments: true
 share: true
 published: true
 mathjax: false
 featured: false
 ---
+
 
 #### Enhancing tool for stent points generation
 1. returning to the previous frame
@@ -41,8 +44,8 @@ Enhance stent-point-generation tool
 
 #### By June 20th
 Implement following tasks:
-* points area detection
-* calculating points area intersecting or non-intersecting (depends on the point type) with inner vessel area
+1. points area detection
+2. calculating points area intersecting or non-intersecting (depends on the point type) with inner vessel area
 
 #### By June 27th
 Implement volume function interpolation. Consequently, there will be an opportunity to caclulate volume.
