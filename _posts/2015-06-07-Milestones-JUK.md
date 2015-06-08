@@ -29,13 +29,13 @@ After this start implementing calculus
 
 #### Major calculus tasks
 1. Calculate volume of the following areas:
-	1.1 Mallapposed
-    1.2 Apposed
+	1. Mallapposed
+	2. Apposed
 2. Providing carpet view:
-	2.1 Calculate vessel contour length at fixed point
-    2.2 Calculate stent contour length at fixed point
-    2.3 Provide a 2D projection of points and contours
-    2.4 Generate final view
+	1. Calculate vessel contour length at fixed point
+	2. Calculate stent contour length at fixed point
+	3. Provide a 2D projection of points and contours
+	4. Generate final view
 
 ### June
 
@@ -44,8 +44,8 @@ Enhance stent-point-generation tool
 
 #### By June 20th
 Implement following tasks:
-1. points area detection
-2. calculating points area intersecting or non-intersecting (depends on the point type) with inner vessel area
+- points area detection
+- calculating points area intersecting or non-intersecting (depends on the point type) with inner vessel area
 
 #### By June 27th
 Implement volume function interpolation. Consequently, there will be an opportunity to caclulate volume.
