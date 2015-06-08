@@ -16,7 +16,8 @@ featured: false
 
 ### Achieved enhancements
 Today I have finished implementing some easy but cosy features for the stent points generation tool.
-From now user can:
+
+###### From now user can:
 1. Return to the previous frame.
 2. Rollback changes in the current frame. It means there is a possibility to remove points one by one inside one frame.
 3. Save points without terminating application (when stopping points are also saved).
@@ -25,7 +26,7 @@ From now user can:
 In order to use all the features one needs to know the keys that call one or another command. Of course, there is nothing special in putting points as it's quite straigtforward: just click your mouse left button.
 However, there are another a little trickier but still intuitive key to press to achive your goal. And here's the list of them:
 
-#### Keys
+##### Keys
 1. _**m**_ - switching to malapposed points
 2. _**a**_ - switching to apposed points
 3. _**c**_ - switching to contained points
@@ -42,7 +43,7 @@ However, there are another a little trickier but still intuitive key to press to
 As you may have noticed there are several types of points. That is why each type is assigned a specific colour to be distinguished when switching types and displaying combined scenes (i.e. vessel surface, carpet view).
 Here is the colour classification used in the tool:
 
-#### Types
+##### Types
 1. Unknown points (default ones) - yellow
 2. Malapposed points - blue
 3. Apposed points - red
