@@ -4,9 +4,9 @@ title: Mid progress on June 18th
 category: Reports
 tags: 
   - reports
+  - memory leaks
+  - severe bugs
   - JUK
-  - "reports,JUK"
-  - "reports,JUK,reports,JUK"
 comments: true
 share: true
 published: true
