@@ -30,5 +30,5 @@ _octAreaDetection: malloc.c:2365: sysmalloc: Assertion `(oldtop == (((mbinptr) (
 Aborted_
 
 Actual code  is the following 
-![code_june_18.png]({{site.baseurl}}/images/code_june_18.png)
+![]({{site.baseurl}}/images/code_june_18.png)
 
