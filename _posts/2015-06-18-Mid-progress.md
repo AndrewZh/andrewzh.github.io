@@ -29,6 +29,7 @@ As when I call a function to post-process the watershed algorithm result in the 
 _octAreaDetection: malloc.c:2365: sysmalloc: Assertion `(oldtop == (((mbinptr) (((char *) &((av)->bins[((1) - 1) * 2])) - builtinoffsetof (struct mallocchunk, fd)))) && oldsize == 0) || ((unsigned long) (oldsize) >= (unsigned >long)((((builtinoffsetof (struct mallocchunk, fdnextsize))+((2 * (sizeof(sizet))) - 1)) & ~((2 * (sizeof(sizet))) - 1))) && ((oldtop)->size & 0x1) && ((unsigned long)oldend & pagemask) == 0)' failed.
 Aborted_
 
-Actual code  is the following 
+Actual code  is the following
+
 ![]({{site.baseurl}}/images/code_june_18.png)
 
