@@ -23,24 +23,10 @@ In order to detect areas several algorithms were considered to be used.
 
 After considering which algorithms to use and knowing that all of them are ready to use (implemented in OpenCV library) the task seems really easy. Unfortunately, it did not appear to be so in practice. Not because of the difficulties with integration or anything else but because of the memory management problems.
 As when I call a function to post-process the watershed algorithm result in the same manner as it is done [here](http://docs.opencv.org/master/d8/da9/watershed_8cpp-example.html) I get quite a disappointing message
-> octAreaDetection: malloc.c:2365: sysmalloc: Assertion `(old_top == (((mbinptr) (((char *) &((av)->bins[((1) - 1) * 2])) - __builtin_offsetof (struct malloc_chunk, fd)))) && old_size == 0) || ((unsigned long) (old_size) >= (unsigned long)((((__builtin_offsetof (struct malloc_chunk, fd_nextsize))+((2 * (sizeof(size_t))) - 1)) & ~((2 * (sizeof(size_t))) - 1))) && ((old_top)->size & 0x1) && ((unsigned long)old_end & pagemask) == 0)' failed.
+
+> octAreaDetection: malloc.c:2365: sysmalloc: Assertion `(old_top == (((mbinptr) (((char *) &((av)->bins[((1) - 1) * 2])) - __builtin_offsetof (struct malloc_chunk, fd)))) && old_size == 0) || ((unsigned long) (old_size) >= (unsigned >long)((((__builtin_offsetof (struct malloc_chunk, fd_nextsize))+((2 * (sizeof(size_t))) - 1)) & ~((2 * (sizeof(size_t))) - 1))) && ((old_top)->size & 0x1) && ((unsigned long)old_end & pagemask) == 0)' failed.
 Aborted
 
 Actual code  is the following
-{%highlight c++
-void octAreaDetector::ShowContoursOnly(cv::Mat& segmentationResult)
-{
-    for (int i = 0; i < segmentationResult.rows; ++i) {
-        for (int j = 0; j < segmentationResult.cols; ++j) {
-            int result = segmentationResult.at<int>(i, j);
-            if (result <= 0) {
-                segmentationResult.at<cv::Vec3b>(i, j) = cv::Vec3b(0, 0, 0);
-            } else {
-                segmentationResult.at<cv::Vec3b>(i, j) = cv::Vec3b(255, 255, 255);
-            }
-        }
-    }
-}
-%}
 
 
