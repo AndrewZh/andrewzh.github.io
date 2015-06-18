@@ -29,7 +29,9 @@ As when I call a function to post-process the watershed algorithm result in the 
 _octAreaDetection: malloc.c:2365: sysmalloc: Assertion `(oldtop == (((mbinptr) (((char *) &((av)->bins[((1) - 1) * 2])) - builtinoffsetof (struct mallocchunk, fd)))) && oldsize == 0) || ((unsigned long) (oldsize) >= (unsigned >long)((((builtinoffsetof (struct mallocchunk, fdnextsize))+((2 * (sizeof(sizet))) - 1)) & ~((2 * (sizeof(sizet))) - 1))) && ((oldtop)->size & 0x1) && ((unsigned long)oldend & pagemask) == 0)' failed.
 Aborted_
 
-Actual code  is the following
+Buggy code:
 
 ![]({{site.baseurl}}/images/code_june_18.png)
+
+I am afraid I do not really understand how I can trigger any kind of error in such a small code snippet. Consequently, I have little idea on what can be changed to fix the error. So I am afraid I may be not meet the deadline for this task.
 
