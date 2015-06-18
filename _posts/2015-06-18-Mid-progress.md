@@ -14,6 +14,7 @@ mathjax: false
 featured: false
 ---
 
+#### Intro
 Lately, I have been working on implementing the feature to retrieve image areas marked by user. This is a very important step in order to calculate the volume based on the several video frames.
 In order to detect areas several algorithms were considered to be used.
 
