@@ -6,7 +6,6 @@ tags:
   - algorithm
   - failure
   - JUK
-  - "algorithm,failure,JUK"
 comments: true
 share: true
 published: true
