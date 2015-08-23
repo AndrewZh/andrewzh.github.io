@@ -23,7 +23,7 @@ To the date I have implemented the creation of the canvas for the carpet view as
 
 On the diagram there is quite a big difference between the perimeters of the stent-strut contours and vessel cross sections, so shanshots of the first four OCT frames are included below in order to explain what dictated the acquired result.
 
-#### Carpet View
+#### Carpet View (results are in millimetres)
 
 ![Carpet View]({{site.baseurl}}/images/first-carpet-view.png)
 
