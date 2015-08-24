@@ -2,11 +2,7 @@
 layout: post
 title: Carpet View. Step 1
 category: Reports
-tags: 
-  - demo
-  - carpet view
-  - snapshots
-  - JUK
+tags: "demo,carpet view,snapshots,JUK"
 comments: true
 share: true
 published: true
@@ -15,9 +11,11 @@ featured: false
 description: ""
 headline: ""
 modified: ""
-categories: null
+categories: 
+  - "null"
 imagefeature: ""
 ---
+
 
 ### Achievement summary
 
@@ -30,6 +28,7 @@ On the diagram there is quite a big difference between the perimeters of the ste
 #### Carpet View (results are in millimetres)
 
 ![Carpet View]({{site.baseurl}}/images/first-carpet-view.png)
+![Carpet View]({{site.baseurl}}/images/first-carpet-view-2-scaled.png)
 
 #### OCT Frames
 
