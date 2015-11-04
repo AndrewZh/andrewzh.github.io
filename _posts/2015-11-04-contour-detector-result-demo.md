@@ -1,17 +1,18 @@
 ---
 layout: post
+title: Contour detector demo
+category: Reports
+tags: 
+  - contour detector
+  - demo
+  - JUK
+comments: true
+share: true
 published: true
-description: ""
-headline: ""
-modified: ""
-categories: null
-tags: ""
-imagefeature: ""
 mathjax: false
 featured: false
-comments: false
-title: Contour detector result demo
 ---
+
 
 ## The Plots
 This post is intended to demonstrate the results of the integrated (a little changed) contour detector. So here are the results:
