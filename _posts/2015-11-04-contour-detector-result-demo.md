@@ -22,4 +22,4 @@ This post is intended to demonstrate the results of the integrated (a little cha
 
 ## Note on results
 As you may see the results may be quite distorted by the stent center _rings_ by side-branches and possibly by other factors not yet encountered. So next steps in detector improvement will be removing center _rings_, using information from previous and next frames (it may be a two step algorithm: 1st step - producing some result, 2nd step - enhancing the result).
-However, now I will switch to integration of all the utilities into one program in order to make testing easier.
+However, now I intend to switch to integration of all the utilities into one program in order to make testing easier.
